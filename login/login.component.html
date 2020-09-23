@@ -1,0 +1,42 @@
+
+<div class="ro" [hidden]= "isDisplay1">
+<mat-card class="example-card">
+    <mat-card-header>
+            <button (click) = "toggleDisplay1()" mat-icon-button  style="left: 70%;"><mat-icon style="size: 5%;" >close</mat-icon></button>
+      <mat-card-title style="font-weight: bolder;">LOGIN</mat-card-title>
+    
+     
+
+    </mat-card-header>
+  
+    <mat-card-content>
+        <form class="example-form">
+            <mat-form-field class="example-full-width">
+              <mat-label>Enter E-mail</mat-label>
+              <input matInput placeholder="" value="">
+            </mat-form-field>
+           
+            <mat-form-field class="example-full-width2">
+                <mat-label>Enter Password</mat-label>
+                <input matInput [type]="hide ? 'password' : 'text'" value="" >
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+               
+              </mat-form-field>
+             
+            </form>
+            <button mat-icon-button style="left:11% ;">  <p style="padding: 0% 11%;font-weight: bold;">Forgot password ?</p></button> <br>
+            <button type="submit" mat-flat-button color="accent" style="padding: 0% 07%; left: 36%;;" >
+              LOGIN
+             </button>
+          </mat-card-content>
+    <mat-card-actions>
+     
+       <p style="padding:0% 11%;">Don't have a account ? <button routerLink="../signup" mat-button style="font:800;" >SIGN UP</button></p>            
+    </mat-card-actions>
+  
+    
+  </mat-card>
+ 
+</div>

@@ -1,0 +1,52 @@
+
+  .example-header-image { 
+    background-size: cover;
+  }
+  .example-card {
+    max-width: 400px;
+     height: 320px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-146%);
+    border-radius: 30px;
+
+  }
+  .example-form {
+    min-width: 150px;
+    max-width: 550px;
+    width: 100%;
+  }
+   
+  .example-full-width {
+    width: 70%;
+    padding:2% 11%;
+    align-items: center;
+  }
+  
+  .example-full-width2 {
+    width: 70%;
+    padding:2% 11%;
+    align-items: center;
+  }
+  .example-h2 {
+    margin: 10px;
+  }
+  
+  .example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .example-margin {
+    margin: 0 10px;
+  }
+
+  .ro{ 
+    background-position: center;
+    background-size: cover;
+    width: 101%;
+    height: 27px;
+    margin: -1%;
+  }
