@@ -1,0 +1,64 @@
+.example-card {
+    max-width: 500px;
+     border-radius: 30px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-52%,-109%);
+  }
+  
+  .example-header-image {
+    
+    background-size: cover;
+  }
+  .example-form {
+    min-width: 150px;
+    max-width: 550px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 70%;
+    padding:2% 11%;
+    align-items: center;
+  }
+  .example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+
+  .example-full-width2 {
+    width: 29%;
+    padding:0% 11%;
+    align-items: center;
+  }
+  .example-full-width3{
+    width: 30%;
+    align-items: center;
+  }
+  .example-full-width0{
+
+   font-weight: bolder;
+    padding:2% 38% ;
+    align-items: center;
+  }
+  .fo{
+
+    background-position: center;
+    background-size: cover;
+    width: 101%;
+    height: 29px;
+    margin: -1%;
+
+  }

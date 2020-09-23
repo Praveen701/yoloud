@@ -1,0 +1,76 @@
+
+<div class="fo" [hidden]= "isDisplay">
+
+<mat-card class="example-card">
+        <mat-card-header >
+          <button (click) = "toggleDisplay()" mat-icon-button  style="left: 70%;" ><mat-icon  >close</mat-icon></button>
+       
+          <mat-card-title class="example-full-width0" >SIGNUP</mat-card-title>
+
+          
+        </mat-card-header>
+
+        <form class="example-form">
+                <mat-form-field class="example-full-width">
+                  <mat-label>Full Name</mat-label>
+                  <input matInput placeholder="" value="" required>
+                </mat-form-field>
+
+                <mat-form-field class="example-full-width">
+                  <mat-label>Phone Number</mat-label>
+                  <span matPrefix>+91 &nbsp;</span>
+                  <input type="tel" matInput placeholder="" required>
+                  <mat-icon matSuffix>phone</mat-icon>
+                </mat-form-field>
+
+                <!--
+                <mat-form-field class="example-full-width2">
+                        <mat-label>Degree</mat-label>
+                        <mat-select>
+                          <mat-option *ngFor="let degree of degrees" [value]="degree">{{degree}}</mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                      <mat-form-field class="example-full-width3">
+                            <mat-label>Department</mat-label>
+                            <mat-select>
+                              <mat-option *ngFor="let department of departments" [value]="department">{{department}}</mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                         -->
+                          <mat-form-field class="example-full-width">
+                                <mat-label>E-mail</mat-label>
+                                <input  matInput  placeholder="" value="" required>
+                                                                                                 
+                              </mat-form-field>
+                              <mat-form-field class="example-full-width">
+                                    <mat-label>Password</mat-label>
+                                    <input matInput [type]="hide ? 'password' : 'text'" required>
+                                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                                    </button>
+                                  </mat-form-field>
+                                  <!--
+                                  <mat-form-field class="example-full-width3">
+                                        <mat-label>Confirm your password</mat-label>
+                                        <input matInput [type]="hide1 ? 'password' : 'text'">
+                                        <button mat-icon-button matSuffix (click)="hide1 = !hide1" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide1">
+                                        <mat-icon>{{hide1 ? 'visibility_off' : 'visibility'}}</mat-icon>
+                                        </button>
+                                      </mat-form-field>
+                                    -->
+                                           
+                                            <mat-checkbox style="padding:0% 11%;">By logging in you agree to YoLoud Influencer<span style="text-decoration: underline blue;">Terms&Conditions</span></mat-checkbox>   
+                                                  
+                    
+                        </form>
+    
+       
+                       
+                        <mat-card-actions >
+                                
+                                <button style="left: 40%;"  mat-flat-button color="primary" >SIGN UP</button>
+                              </mat-card-actions>
+                              <p style="padding:0% 11%;">Already have a account ? <button routerLink="../login" mat-button style="font:800;" >LOGIN</button></p>            
+      </mat-card>
+
+    </div>
