@@ -1,0 +1,167 @@
+.aa{
+    width: 101.5%;
+    height: 101%;
+    margin: 0%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+
+}
+.mat-grid-tile {
+      background: lightblue;
+    }
+ 
+  
+  .example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+      left: 0%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+
+  }
+.mat-sidenav{
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  background-color:wheat;
+  overflow: hidden;
+  
+
+  }
+  .mat-sidenav a:hover{
+    color: palegreen;
+  }
+
+
+
+
+
+
+
+  
+  
+
+  .example-ripple-container1 {
+    cursor: pointer;
+    text-align: center;
+    top:-34%;
+     left: 18%;
+    width: 540px;
+    height: 140px;
+    line-height: 300px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+   background-image: url(C:\Users\PRADEVA\final\src\assets\mypr.jpg);
+ 
+  background-position: center;
+  background-position:initial;
+
+
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .example-ripple-container2 {
+    cursor: pointer;
+    text-align: center;
+    top:-34%;
+   left: 53%;
+    width: 490px;
+    height: 140px;
+    line-height: 300px;
+   background-image: url(C:\Users\PRADEVA\final\src\assets\tm.jpg);
+   background-size: cover;
+
+   user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .example-ripple-container3 {
+    cursor: pointer;
+    text-align: center;
+    top:0%;
+    left: -15%;
+    width: 490px;
+    height: 140px;
+    line-height: 300px;
+   background-image: url(C:\Users\PRADEVA\final\src\assets\eh.jpg);
+    background-size: cover;
+    background-position: bottom;
+   user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .example-ripple-container4 {
+    cursor: pointer;
+    text-align: center;
+    top:0%;
+    left: 19%;
+    width: 490px;
+    height: 140px;
+    line-height: 300px;
+  
+    background-image: url(C:\Users\PRADEVA\final\src\assets\unn.jpg);
+    background-position: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .example-ripple-container5 {
+    cursor: pointer;
+    text-align: center;
+    top:35%;
+    left: -48%;
+    width: 490px;
+    height: 140px;
+    line-height: 300px;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+   
+    background-image: url(C:\Users\PRADEVA\final\src\assets\marks.jpg);
+  background-position: top;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .example-ripple-container6 {
+    cursor: pointer;
+    text-align: center;
+    top:35%;
+    left: -13%;
+    width: 490px;
+    height: 140px;
+    line-height: 300px;
+   background-image: url(C:\Users\PRADEVA\final\src\assets\download.jpg);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+
