@@ -1,0 +1,140 @@
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.bg{
+
+  background-image: url(../src/assets/sbg.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 101.5%;
+  height: 660px;
+  margin: -1%;
+
+}
+.center{
+position: absolute;
+top: 06%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+
+}
+ul li{
+
+  list-style: none;
+  border: 2px solid #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 30px;
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+ul li a{
+  text-decoration: none;
+  padding: 15px 35px;
+  display: block;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+
+  background-image: url(../src/assets/img10.JPG);
+  background-size: 101%;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  width: 101.5%;
+  height: 659px;
+  margin: -1%;
+
+}
+.tooo{
+  margin-top: 30%;
+  margin: 0px;
+  height: 30%;
+
+
+}
+
+
+.overlay{
+    background: #0000008a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+    .example-icon {
+      padding: 0 0px;
+    }
+    
+    .example-spacer {
+      flex: 1 1 auto;
+      padding:0px 30%;
+      justify-content: space-between;
+    }
+  
+
+.looo{
+
+  margin: 0;
+  padding: 0;
+
+
+}
+li,a,button{
+  font-family:'Courier New';
+  font-weight: 500;
+  font-size: 16px;
+  color: aliceblue;
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.moom{
+   width: 50px;
+   height: 40px;
+   position: absolute;
+   top: 100px;
+   right: 100px;
+}
+
+
+
+
+
+
